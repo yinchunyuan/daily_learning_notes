@@ -7,19 +7,19 @@
 
 
 
- - Docker安装
+ - Docker安装(官方文档即可)
 
 
 
  - Docker命令: 镜像命令、容器命令、操作命令......
-             * Docker的常用命令: 帮助命令(docker version     # 显示Docker的版本信息
-                                        docker info         # 显示Docker的系统信息
-                                        docker 命令 --help  # 万能命令)
-             * 镜像命令(docker images)
-
-
-
-             * 容器命令
+             * Docker的常用命令: 帮助命令 docker version      #显示Docker的版本信息
+                                        docker info          #显示Docker的系统信息
+                                        docker 命令 --help   #万能命令
+             * 镜像命令(docker images)   
+                                        docker rmi -f  镜像id               #删除指定的镜像
+                                        docker rmi -f  镜像id 镜像id 镜像id  #删除多个镜像
+                                        docker rmi -f $(docker images -aq)  #删除全部的镜像
+             * 容器命令(有了镜像才可以创建容器)
     
 
 
