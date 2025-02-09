@@ -1,2 +1,54 @@
-1. Docker是什么
-2. 
+ - Docker是什么   
+   Docker是一个开源的应用容器引擎, 可以配环境, 可以跨平台(相当于仓库、应用商店)
+   (环境部署, 每一个机器都要部署环境, 费时费力, 使用Docker省时省力)
+   Docker的核心思想是集装箱(看它的logo ~ )
+
+
+ - 预备知识: Linux(知道一些命令例如cd、mkdir即可)、SpringBoot, 上手门槛不高
+
+
+
+
+ - Docker安装
+
+
+
+
+ - Docker命令:镜像命令、容器命令、操作命令......
+
+
+
+
+ - Docker镜像
+
+
+
+ - 容器数据卷
+
+
+
+
+ - DockerFile
+
+
+
+
+ - Docker网络原理
+
+
+
+
+ - IDEA整合Docker
+
+
+
+ - Docker Compose
+
+
+
+
+ - Docker Swarm
+
+
+
+ - CI\CD Jenkins
