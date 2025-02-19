@@ -1,0 +1,21 @@
+输出字符菱形
+
+-  用Python:
+            print('  * ')
+            print(' ***')
+            print('*****')
+            print(' ***')
+            print('  * ')
+
+
+-  用C:
+            #include<stdio.h>
+            int main()
+            {    
+            printf("  *\n");    
+            printf(" ***\n");    
+            printf("*****\n");    
+            printf(" *** \n");    
+            printf("  * ");
+            return 0;
+            }
